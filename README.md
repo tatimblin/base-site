@@ -1,2 +1,2 @@
 # base-site
-My base template for a simple hardcoded website
+My (soon to be) base template for a simple hardcoded website.
