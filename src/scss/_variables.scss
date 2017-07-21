@@ -1,0 +1,61 @@
+// ### TYPOGRAPHY ###
+// -----------------------------------------
+
+$heading: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+$body: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Verdana, sans-serif;
+
+$lightWeight: 300;
+$midWeight:   500;
+$heavyWeight: 700;
+
+
+// ### COLORS ###
+// -----------------------------------------
+
+$dark: #262626 ;
+$black: #1a1a1a ;
+$white: #fefefe ;
+
+// Material Colors (500)
+$red:    #F44336 ;
+$blue:   #2196F3 ;
+$green:  #4CAF50 ;
+$purple: #673AB7 ;
+$orange: #FF9800 ;
+$grey:   #607D8B ;
+
+$brand:  #A33E0B ;
+
+$bg: #f2f2f2 ;
+$text: $black;
+$h-text: $brand;
+$p-text: $black;
+
+
+// ### SIZINGS ###
+// -----------------------------------------
+
+$screen-xs:  480px;
+$screen-sm:  768px;
+$screen-md:  992px;
+$screen-lg: 1220px;
+
+$spacing: 15px;
+
+$container-xs: $screen-xs + $spacing; 
+$container-sm: $screen-sm + $spacing;
+$container-md: $screen-md + $spacing * 2;
+$container-lg: $screen-lg + $spacing * 2;
+
+// Use media queries like this:
+// @include query($screen-sm) {
+//     .wrapper {
+//         padding-right: $spacing-unit / 2;
+//         padding-left: $spacing-unit / 2;
+//     }
+// }
+@mixin query($device) {
+    @media screen and (min-width: $device) {
+        @content;
+    }
+}
