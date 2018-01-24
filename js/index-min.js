@@ -1,0 +1,1 @@
+var flkty=new Flickity(".gallery",{prevNextButtons:!1,wrapAround:!0,pageDots:!1});
