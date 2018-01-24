@@ -1,5 +1,3 @@
-@import url('https://fonts.googleapis.com/css?family=Cardo:700');
-
 h1, h2, h3, h4 {
     margin-bottom: $spacing;
     color: $text;
@@ -16,7 +14,11 @@ h5, h6 {
     line-height: 1.25em;
 }
 h1 {
-    font-size: 20vw;
+    font-size: 48px;
+    @include bigger($screen-xs) {font-size: 48px;}
+    @include bigger($screen-sm) {font-size: 60px;}
+    @include bigger($screen-md) {font-size: 90px;}
+    @include bigger($screen-lg) {font-size: 120px;}
 }
 h2 {
     font-size: 30px;
