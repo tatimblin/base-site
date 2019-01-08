@@ -56,7 +56,7 @@ h6 {
     @include bigger($screen-lg) {font-size: 36px;}
 }
 
-p, ul, li {
+p, ul, li, label {
     margin: 0 0 $spacing 0;
     color: lighten($text, 35%);
     font-size: 18px;
