@@ -4,13 +4,13 @@ A super simple template to build super simple sites on. I use this for splash / 
 ## Features
 - File architecture
 - Common meta tags
--- Seo
--- Social cards
--- Page behavior
+  - Seo
+  - Social cards
+  - Page behavior
 - SCSS Setup
--- Useful partials
--- Typescale
--- Webfonts
--- Common variables
--- Css reset
+  - Useful partials
+  - Typescale
+  - Webfonts
+  - Common variables
+  - Css reset
 - Basic markup
